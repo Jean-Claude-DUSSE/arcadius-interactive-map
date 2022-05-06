@@ -1,0 +1,17 @@
+#map{
+	height: 820px;
+	background-color: #04589B;
+}
+
+
+
+/*
+
+shadow of the cursor :
+cursor -> copy
+adjustments hue/sat -> sat = 0
+layer -> rotate/zoom = -30 -90 45
+curves+ -> alpha at 255/128
+
+
+*/
