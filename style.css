@@ -1,3 +1,26 @@
+/* lilita-one-regular - latin */
+@font-face {
+	font-family:'Lilita One';
+	font-style:normal;
+	font-weight:400;
+	src:url('./fonts/lilita-one-v11-latin-regular.eot'); /* IE9 Compat Modes */
+	src:local(''),
+		url('./fonts/lilita-one-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('./fonts/lilita-one-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/lilita-one-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('./fonts/lilita-one-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/lilita-one-v11-latin-regular.svg#LilitaOne') format('svg'); /* Legacy iOS */
+}
+
+h1{
+	font-family:'Lilita One', cursive;
+	color:#ffffff;
+	text-align:center;
+	background-color:#CFAA91;
+	padding:10px;
+	font-size:60px;
+	text-shadow:3px 3px #000000, 3px 0px #000000, 3px -3px #000000, 0px 3px #000000, 0px -3px #000000, -3px 3px #000000, -3px 0px #000000, -3px -3px #000000;
+}
 #map{
 	height: 820px;
 	background-color: #04589B;

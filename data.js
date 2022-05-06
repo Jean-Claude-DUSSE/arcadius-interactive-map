@@ -78,11 +78,11 @@ map_data = {
 				"pos":[
 					{"x":326,"y":652},
 					{"x":329,"y":647}]
-			},
+			}/*,
 			"99":{
-				"name":"xxx",
-				"pos":[{"x":0,"y":0}]
-			}
+				"name":"example",
+				"pos":[{"x":0000,"y":0000}]
+			}*/
 		},
 		"Trees":{
 		},
@@ -183,6 +183,17 @@ map_data = {
 			}
 		},
 		"Points of Interest":{
+			"1":{"name":"Newbies Island","pos":[{"x":33,"y":675}]},
+			"2":{"name":"Island of the Red Crystal","pos":[{"x":834,"y":700}]},
+			"3":{"name":"Pond","pos":[{"x":509,"y":439}]},
+			"4":{"name":"Ship","pos":[{"x":48,"y":613}]},
+			"5":{"name":"Top of Mount Magma","pos":[{"x":945,"y":286}]},
+			"6":{"name":"Top of the world","pos":[{"x":850,"y":113}]},
+			"7":{"name":"Altar","pos":[{"x":739,"y":414}]},
+			"8":{"name":"Secret Rune","pos":[{"x":407,"y":488},{"x":552,"y":624}]},
+			"9":{"name":"Tents & camp","pos":[{"x":403,"y":511},{"x":912,"y":388},{"x":589,"y":409}]},
+			"10":{"name":"Cave","pos":[{"x":919,"y":327}]},
+			"11":{"name":"Sunken ship to unlock Sunken pickaxe.<br />Requires a Demonic pick and a Blood Spore pick to open.","pos":[{"x":656,"y":155}]}
 		}
 	}
 }

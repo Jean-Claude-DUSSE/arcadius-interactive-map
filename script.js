@@ -40,14 +40,10 @@ var my_data = map_data.data
 
 for(category in my_data)
 {
-	console.log(category);
 	let group = L.layerGroup();
 	my_overlays[category] = group;
 
 	let my_icon = new my_icon_template({iconUrl: map_data.icons[category].icon});
-
-	console.log(map_data.icons[category].icon)
-	console.log(my_icon)
 
 	for(item in my_data[category])
 	{
@@ -61,20 +57,6 @@ for(category in my_data)
 		}
 	}
 }
-//map_data.data.NPC[1].pos[0].x
-//map_data.data.NPC[1].pos[0][1]
-
-
-/*var list_of_teleporters = L.layerGroup();
-
-var chi = L.marker(xy(315,654)).bindPopup('Mount Chibi').addTo(list_of_teleporters);
-var mis = L.marker(xy(649, 320)).bindPopup('Misty Hills').addTo(list_of_teleporters);
-var fis = L.marker(xy(505, 537)).bindPopup('Fishers Refuge').addTo(list_of_teleporters);
-var mag = L.marker(xy(894, 335)).bindPopup('Mount Magma').addTo(list_of_teleporters);
-var sno = L.marker(xy(690, 771)).bindPopup('Snowy Peak').addTo(list_of_teleporters);
-
-var list_of_wololo = L.layerGroup();*/
-
 
 //define the map system
 var map = L.map('map', {crs: L.CRS.Simple,layers: my_layers});
@@ -85,8 +67,6 @@ var image = L.imageOverlay('map.png', bounds).addTo(map);
 //apply all we set up
 map.fitBounds(bounds);
 
-
-
 var layerControl = L.control.layers(null, my_overlays).addTo(map);
 
 //set the height of the map to be (whole screen - title)
@@ -94,5 +74,5 @@ let themap = document.getElementById("map")
 let thetitle = document.getElementsByTagName("H1")[0]
 themap.style.height = window.innerHeight - thetitle.offsetHeight +"px"
 //cleaning leaflet
-/*let flag = document.getElementsByTagName("A")[3];
-flag.removeChild(flag.firstChild);*/
+let flag = document.getElementsByTagName("A")[3];
+flag.removeChild(flag.firstChild);
